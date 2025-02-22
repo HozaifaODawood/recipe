@@ -47,7 +47,7 @@ export default function Home() {
 
 
     const handleViewRecipe = (idMeal) => {
-        navigate(`/details/${idMeal}`)
+        navigate(`/recipe/details/${idMeal}`)
     }
 
 
