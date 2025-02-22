@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../public//Fonts/Pacifico-Regular.ttf') format('ttf'),
+        url('../public/Fonts/Pacifico-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'OleoReg';
+    src: url('../public//Fonts/OleoScript-Regular.ttf') format('ttf'),
+        url('../public/Fonts/OleoScript-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'OleoBold';
+    src: url('../public//Fonts/OleoScript-Bold.ttf') format('ttf'),
+        url('../public/Fonts/OleoScript-Bold.woff2') format('woff2');
+}
+
+
+
+

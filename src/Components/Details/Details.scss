@@ -1,0 +1,114 @@
+.recipeDetails {
+    width: 100%;
+    background-color: beige;
+    margin-left: 16rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+
+    .mainDiv {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        h1 {
+            font-family: 'OleoBold';
+            font-size: 2.5rem;
+            text-align: center;
+            color: #F29724;
+            text-shadow: 2px 2px 2px grey;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 1rem;
+            box-shadow: 4px 3px 2px grey;
+            transition: all 0.5s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+
+            .youtube {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                padding: .8rem 2rem;
+                border: none;
+                border-radius: 1rem;
+                background-color: red;
+                color: white;
+                font-family: 'Oleo';
+                font-size: 1.2rem;
+                cursor: pointer;
+                box-shadow: 2px 2px 2px grey;
+                transition: all 0.5s ease;
+
+                &:hover {
+                    background-color: rgb(151, 1, 1);
+                }
+            }
+
+            .source {
+                @extend .youtube;
+                background-color: rgb(58, 160, 58);
+
+                &:hover {
+                    background-color: rgb(34, 100, 34);
+                }
+            }
+        }
+
+    }
+
+    .secondDiv {
+        width: 30%;
+        margin-top: 5rem;
+
+        p {
+            font-family: 'Pacifico';
+        }
+    }
+
+    .thirdDiv {
+        margin-top: 5rem;
+        height: fit-content;
+        width: 20%;
+        background-color: white;
+        border-radius: 1.5rem;
+        padding: 1rem;
+        box-shadow: 4px 3px 2px grey;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h2 {
+            font-family: 'OleoBold';
+            font-size: 1.5rem;
+            text-align: center;
+
+        }
+
+        .one {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Oleo';
+        }
+
+        .two {
+            @extend .one;
+        }
+
+        .three {
+            @extend .one;
+        }
+    }
+}

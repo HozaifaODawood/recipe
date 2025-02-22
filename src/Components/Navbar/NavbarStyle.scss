@@ -1,0 +1,43 @@
+aside {
+    div {
+        ul {
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                .navLink {
+                    margin-bottom: 1rem;
+                    display: flex;
+                    padding-left: 1rem;
+                    align-items: center;
+                    background-color: transparent;
+                    color: black;
+                    border: gray 1px solid;
+                    border-radius: 5px;
+                    width: 95%;
+                    padding-block: 0.5rem;
+                    transition: all 0.5s ease;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    &:focus {
+                        background-color: #F29724;
+                        color: white;
+                        border: none;
+                        box-shadow: 2px 3px 20px #F29724;
+                    }
+                    
+                    &:active {
+                        background-color: #F29724;
+                        color: white;
+                        border: none;
+                        box-shadow: 2px 3px 20px #F29724;
+                    }
+                }
+            }
+        }
+    }
+}
